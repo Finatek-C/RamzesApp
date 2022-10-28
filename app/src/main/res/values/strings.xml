@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">RamzesApp</string>
+    <string name="app_name">РАМЗЭС</string>
+    <string name="settings_str">Настройки</string>
 </resources>
