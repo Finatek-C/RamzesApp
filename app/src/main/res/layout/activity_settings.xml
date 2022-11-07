@@ -126,7 +126,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:textSize="14sp"
-                        android:paddingTop="10dp"/>
+                        android:layout_toEndOf="@+id/roleUserText"/>
                 </RelativeLayout>
 
             </LinearLayout>
