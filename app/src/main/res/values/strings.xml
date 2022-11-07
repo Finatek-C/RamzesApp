@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">РАМЗЭС</string>
-    <string name="settings_str">Настройки</string>
+    <string name="settingsText">Настройки</string>
+    <string name="loginText">Войти</string>
 </resources>
