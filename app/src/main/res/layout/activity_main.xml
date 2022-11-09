@@ -6,11 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/btnShowParam"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/choise_param_btn"
+                android:padding="13dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/app_name"
+                android:textColor="@color/ramzes_orange"
+                android:textSize="26sp"/>
+
+            <ImageView
+                android:id="@+id/btnSettings"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/settings_btn"
+                android:padding="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
 
 
 </LinearLayout>
