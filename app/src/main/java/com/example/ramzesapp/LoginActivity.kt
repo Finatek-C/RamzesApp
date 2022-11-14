@@ -9,15 +9,24 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class LoginActivity : AppCompatActivity() {
+    lateinit var LoginButton:Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        LoginButton = findViewById(R.id.LoginButtonID)
 
         Log.i("ramzesapp", "activity_login - запустилось")
+
+        Login()
     }
 
-    fun btnSignIn(view: View)
+    fun Login()
     {
-
+        LoginButton.setOnClickListener {
+            //Открываем Activity MainActivity
+            val intentMainActivity = Intent(this, MainActivity::class.java)
+            startActivity(intentMainActivity)
+        }
     }
 }

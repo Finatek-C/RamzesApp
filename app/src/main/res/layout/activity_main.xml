@@ -17,7 +17,7 @@
             android:weightSum="10">
 
             <ImageView
-                android:id="@+id/ShowParamSessionButton"
+                android:id="@+id/ShowParamSessionButtonID"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/choise_param_btn"
