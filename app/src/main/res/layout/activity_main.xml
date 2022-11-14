@@ -17,7 +17,7 @@
             android:weightSum="10">
 
             <ImageView
-                android:id="@+id/btnShowParam"
+                android:id="@+id/ShowParamSessionButton"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/choise_param_btn"
@@ -25,7 +25,7 @@
                 android:layout_marginTop="5dp" />
 
             <TextView
-                android:id="@+id/app_name"
+                android:id="@+id/AppNameTextViewID"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -34,7 +34,7 @@
                 android:textSize="26sp"/>
 
             <ImageView
-                android:id="@+id/btnSettings"
+                android:id="@+id/SettingsButtonID"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/settings_btn"

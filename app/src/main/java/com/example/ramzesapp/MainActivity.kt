@@ -13,11 +13,5 @@ class MainActivity : AppCompatActivity() {
 
         Log.i("ramzesapp", "activity_login - запустилось")
 
-        val btnSettings: Button = findViewById(R.id.btnSettings)
-        btnSettings.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-            Log.i("ramzesapp", "activity_login - кнопка SignInbtn нажата")
-        }
     }
 }

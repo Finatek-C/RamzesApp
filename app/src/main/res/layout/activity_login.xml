@@ -21,7 +21,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/app_name"
+                android:id="@+id/AppNameTextViewID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -39,7 +39,7 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/login"
+                android:id="@+id/LoginEditTextID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -55,7 +55,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/PasswordEditTextID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -82,12 +82,13 @@
             android:weightSum="1">
 
             <Button
-                android:id="@+id/btnSignin"
+                android:id="@+id/LoginButtonID"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight=".6"
                 android:background="@drawable/login_btn"
+                android:onClick="btnSignIn"
                 android:shadowColor="#E6DCDC"
                 android:text="@string/loginText"
                 android:textColor="@color/white"
