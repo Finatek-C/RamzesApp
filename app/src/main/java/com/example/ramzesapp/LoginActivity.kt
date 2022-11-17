@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
         LoginButton = findViewById(R.id.LoginButtonID)
 
-        Log.i("ramzesapp", "activity_login - запустилось")
+        Log.i("ramzesapp", "activity_login")
 
         Login()
     }
