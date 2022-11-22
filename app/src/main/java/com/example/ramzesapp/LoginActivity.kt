@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
 
-        Log.i("ramzesapp", "activity_login - запустилось")
+        Log.i("ramzesapp", "activity_login")
 
         Login()
     }
