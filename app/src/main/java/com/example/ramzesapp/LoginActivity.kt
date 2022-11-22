@@ -3,18 +3,18 @@ package com.example.ramzesapp
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.View
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
+import com.example.ramzesapp.databinding.ActivityLoginBinding
 
 
 class LoginActivity : AppCompatActivity() {
-    lateinit var LoginButton:Button
+    lateinit var binding: ActivityLoginBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        LoginButton = findViewById(R.id.LoginButtonID)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
 
         Log.i("ramzesapp", "activity_login - запустилось")
 
@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
 
     fun Login()
     {
-        LoginButton.setOnClickListener {
+        binding.LoginButtonID.setOnClickListener {
             //Открываем Activity MainActivity
             val intentMainActivity = Intent(this, MainActivity::class.java)
             startActivity(intentMainActivity)
