@@ -1,10 +1,12 @@
-package com.example.ramzesapp
+package com.example.ramzesapp.View
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import com.example.ramzesapp.MainActivity
+import com.example.ramzesapp.R
 import com.example.ramzesapp.databinding.ActivityLoginBinding
 
 

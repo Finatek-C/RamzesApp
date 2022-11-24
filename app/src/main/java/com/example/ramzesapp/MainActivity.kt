@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import com.example.ramzesapp.View.SettingsActivity
 import com.example.ramzesapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

@@ -1,9 +1,11 @@
-package com.example.ramzesapp
+package com.example.ramzesapp.View
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.example.ramzesapp.MainActivity
+import com.example.ramzesapp.R
 import com.example.ramzesapp.databinding.ActivitySettingsBinding
 
 class SettingsActivity : AppCompatActivity() {
@@ -26,4 +28,6 @@ class SettingsActivity : AppCompatActivity() {
             startActivity(intentBackMainActivity)
         }
     }
+
+
 }
